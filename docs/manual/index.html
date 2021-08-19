@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manual - RocherCSS</title>
+    <link media="all" rel="stylesheet" href="../../dist/css/rocher.min.css" />
+
+    <style>
+      .showcase {
+        overflow: hidden;
+      }
+      .col-item {
+        margin: 0.3rem;
+        padding: 0.7em var(--em-spacer4);
+        border-radius: 0.2rem;
+        color: #fff;
+        background-color: var(--rocher-milk);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="rocher">
+
+      <h3>Fade In</h3>
+      <div class="showcase">
+        <div class="fade-in">
+          <strong>This sentence will fade in</strong>
+        </div>
+      </div>
+
+      <h3>Fade Out</h3>
+      <div class="showcase">
+        <div class="fade-out">
+          <strong>This sentence will fade out</strong>
+        </div>
+      </div>
+
+      <h3>Fade Up</h3>
+      <div class="showcase">
+        <div style="overflow:hidden;">
+          <div class="fade-up">
+            <strong>This sentence will fade out</strong>
+          </div>  
+        </div>
+      </div>
+
+      <h3>Fade Down</h3>
+      <div class="showcase">
+        <div style="overflow:hidden;">
+          <div class="fade-down">
+            <strong>This sentence will fade down</strong>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="rocher">
+      <h1>Header</h1>
+      <p>You can take from <code>h1</code> to <code>h6</code></p>
+      <div class="showcase">
+        <div>
+          <h1>Heading H1</h1>
+          <h2>Heading H2</h2>
+          <h3>Heading H3</h3>
+          <h4>Heading H4</h4>
+          <h5>Heading H5</h5>
+          <h6>Heading H6</h6>
+        </div>
+      </div>
+    </div>
+
+    <div class="rocher">
+      <h1>Grids</h1>
+
+      <h3>Basic</h3>
+
+      <div class="showcase">
+        <div class="row">
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>.col</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="col-item txt-ctr"><span>.col</span></div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr"><span>.col</span></div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr"><span>.col</span></div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Sized Columns</h3>
+      <div class="showcase">
+        <div class="row">
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+          <div class="col-1">
+            <div class="col-item txt-ctr"><span>.col-1</span></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="col-item txt-ctr"><span>.col-4</span></div>
+          </div>
+          <div class="col-4">
+            <div class="col-item txt-ctr"><span>.col-4</span></div>
+          </div>
+          <div class="col-4">
+            <div class="col-item txt-ctr"><span>.col-4</span></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="col-item txt-ctr"><span>.col-6</span></div>
+          </div>
+          <div class="col-6">
+            <div class="col-item txt-ctr"><span>.col-6</span></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="col-item txt-ctr"><span>.col-12</span></div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Mix n-column</h3>
+
+      <div class="showcase">
+        <div class="row">
+          <div class="col-3">
+            <div class="col-item txt-ctr">
+              <span>.col-3</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="col-item txt-ctr">
+              <span>.col-5</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-5">
+            <div class="col-item txt-ctr">
+              <span>.col-5</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+          <div class="col-2">
+            <div class="col-item txt-ctr">
+              <span>.col-2</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+          <div class="wrap"></div>
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col-item txt-ctr">
+              <span>auto</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3>Sized Columns</h3>
+    </div>
+  </body>
+</html>

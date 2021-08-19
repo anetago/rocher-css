@@ -1,0 +1,40 @@
+{
+  "name": "rochercss",
+  "version": "0.0.2",
+  "description": "Lightweight and Responsive css",
+  "main": "index.js",
+  "watch": {
+    "autobuild": {
+      "patterns": ["src"],
+      "extensions": "scss"
+    }
+  },
+  "scripts": {
+    "autobuild": "rollup -c",
+    "build:css": "rollup -c",
+    "watch:css": "npm-watch autobuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anetago/RocherCSS.git"
+  },
+  "keywords": [
+    "css",
+    "postcss",
+    "design",
+    "responsive",
+    "RocherCSS"
+  ],
+  "author": "Anetago",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Anetago/RocherCSS/issues"
+  },
+  "homepage": "https://github.com/Anetago/RocherCSS#readme",
+  "devDependencies": {
+    "npm-watch": "^0.11.0",
+    "rollup": "^2.56.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "sass": "^1.38.0"
+  }
+}

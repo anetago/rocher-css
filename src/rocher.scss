@@ -1,0 +1,21 @@
+// Variables and colors
+@import "./_color/color.scss";
+@import "./_skelton/spacing.scss";
+
+// Global element
+@import "./_skelton/skelton.scss";
+
+.rocher {
+    @import "./_skelton/typography.scss";
+    
+    @import "./flex/flex.scss";
+    @import "./media/media.scss";
+
+    @import "./grid/grid.scss";
+    @import "./buttons/buttons.scss";
+    @import "./forms/forms.scss";
+    @import "./tables/tables.scss";
+
+    // Utilities
+    @import "./utilities/animations.scss";
+}

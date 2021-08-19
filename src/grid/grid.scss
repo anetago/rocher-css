@@ -1,0 +1,39 @@
+@use "sass:math";
+@import "./../variables.scss";
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .wrap {
+        width: 100% !important;
+    }
+
+    .col {
+        max-width: 100%;
+        flex: 1;
+    }
+
+    @for $i from 1 through $denominator {
+        .col-#{$i} {
+            position: relative;
+            width: math.div(100%, $denominator)*$i;
+        }
+    }
+
+    @media screen and (min-width: 1199px) {
+        @for $i from 1 through $denominator {
+            .col-xl-#{$i} {
+                flex: relative;
+                max-width: math.div(100%, $denominator)*$i;
+            }
+        }
+    }
+
+}

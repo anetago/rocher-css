@@ -1,0 +1,51 @@
+@use "sass:math";
+
+@import "./../variables.scss";
+@import "./../_color/color.scss";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    margin-block: auto;
+}
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+h4 {
+    font-size: $font-size-h4;
+}
+
+h5 {
+    font-size: $font-size-h5;
+}
+
+h6 {
+    font-size: $font-size-h6;
+}
+
+/* Text Alighment */
+.txt-ctr {
+    text-align: center;
+}
+
+.txt-rgt {
+    text-align: right;
+}
+
+.txt-lft {
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+@import "./../_color/color.scss";
+@import "./../variables.scss";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10pt;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    cursor: pointer;
+    letter-spacing: 0;
+    text-decoration: underline;
+}
+
+/* hidden */
+.hidden,
+[hidden] {
+    display: none !important;
+}
+
+abbr {
+    cursor: help;
+}
+
+strong {
+    font-weight: 700;
+}
+
+code {
+    background-color: var(--snow-white);
+    color: var(--red);
+    padding: var(--em-spacer3) var(--em-spacer4);
+}
