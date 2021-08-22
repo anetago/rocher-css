@@ -1,3 +1,8 @@
+/**
+ * Color pallet
+ * This pallet is based on the Japanese Traditional color 
+ */
+
 :root {
     --transparent: transparent;
 
@@ -21,20 +26,25 @@
     --rocher-blue-black: #4C4555;
     --rocher-ruby-choco: #885457;
 
-    // Color pallet
-
+    /* Color pallet */
     // Red
     --vivid-red: #d7003a; // shuiro
     --red: #e60033;
+    --red2: #bf1e33;
     --deep-red: #b7282e; // akane-iro
+    --ligher-blackred: #ae3846; //enji-iro
 
     // Pink
-    --rose: #d94177;
-    --pink: #E91E63;
+    --sakura-pink: #ffdbed;
     --cherry-pink: #cf61a5;
+    --sakura-red: #e3557f;
+    --rose: #d94177;
+    --pink: #e91e63;
+    --peony: #c24dae; // botan-iro
+    --strawberry: #bb1e5e;
 
     // purple
-    --vivid-purple: #706caa; // 
+    --vivid-purple: #706caa; 
     --violet: #705DA8;
     --purple: #884898;
     --magenta: #c949a2;
@@ -45,18 +55,27 @@
     --indigo: #3F51B5;
     --blue: #3170b9;
     --light-blue: #03A9F4;
+    --sky-blue: #95c0ec; //sora-iro
     --cyan: #00BCD4;
+    --lighter-cyan:#8cb4ce; // kanomezoki
 
     // Green
+    --celadon: #60b49f;
+    --light-green: #8BC34A;
     --teal: #009688;
     --green: #4CAF50;
-    --light-green: #8BC34A;
+    --deep-green: #005731;
 
+    // Yellow
     --lime: #CDDC39;
-    --yellow: #FFEB3B;
-    --amber: #FFC107;
+    --yellow: #ffbe00;
+    --amber: #ffa500;
+    --gold: #ffD700;
 
-    --orange: #FF9800;
+    // Orange
+    --sun-flower: #ffb500;
+    --honey-orange: #fa8000;
+    --orange: #fd7e00; // hada-iro
     --deep-orange: #FF5722;
 
 

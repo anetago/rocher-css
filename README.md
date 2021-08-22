@@ -5,7 +5,7 @@
 RocherCSS is a lightweight and modular front-end css framework for powerful and easygoing web design interface.
 
 ## Getting Started
-To prevent conflicting with the others framework, RocherCSS requires when you should use this in the container with `.rocher` class. Therefore, we recommend to insert to `<body>` class.
+To prevent conflicting with the others framework, RocherCSS requires to fill in the container or the parent elements with `.rocher` class. Therefore, we recommend to insert to `<body>` class.
 
 
 ```html
