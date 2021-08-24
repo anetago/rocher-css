@@ -8,6 +8,9 @@
     <link media="all" rel="stylesheet" href="../../dist/css/rocher.min.css" />
 
     <style>
+      body {
+        font-size: 12pt;
+      }
       .showcase {
         overflow: hidden;
       }
@@ -22,7 +25,6 @@
   </head>
   <body>
     <div class="rocher">
-
       <h3>Fade In</h3>
       <div class="showcase">
         <div class="fade-in">
@@ -39,24 +41,48 @@
 
       <h3>Fade Up</h3>
       <div class="showcase">
-        <div style="overflow:hidden;">
+        <div style="overflow: hidden">
           <div class="fade-up">
             <strong>This sentence will fade out</strong>
-          </div>  
+          </div>
         </div>
       </div>
 
       <h3>Fade Down</h3>
       <div class="showcase">
-        <div style="overflow:hidden;">
+        <div style="overflow: hidden">
           <div class="fade-down">
             <strong>This sentence will fade down</strong>
-          </div>  
+          </div>
         </div>
       </div>
     </div>
 
     <hr />
+
+    <div class="rocher">
+      <h1>Table</h1>
+      <div class="showcase">
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Country</th>
+              <th>Abbr</th>
+              <th>Capital</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Japan</td>
+              <td>JP</td>
+              <td>Tokyo</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
 
     <div class="rocher">
       <h1>Header</h1>
@@ -69,6 +95,12 @@
           <h4>Heading H4</h4>
           <h5>Heading H5</h5>
           <h6>Heading H6</h6>
+        </div>
+      </div>
+
+      <div class="showcase">
+        <div style="width: 300px">
+          <pre><code>git clone https://github.com/Anetago/RocherCSS.git</code></pre>
         </div>
       </div>
     </div>
@@ -238,5 +270,14 @@
 
       <h3>Sized Columns</h3>
     </div>
+
+    <!-- Button -->
+    <div class="rocher">
+      <h1>Button</h1>
+      <div class="showcase">
+        <button class="btn">Button</button>
+      </div>
+    </div>
+
   </body>
 </html>

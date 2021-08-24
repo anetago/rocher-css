@@ -44,7 +44,7 @@
     --strawberry: #bb1e5e;
 
     // purple
-    --vivid-purple: #706caa; 
+    --vivid-purple: #706caa;
     --violet: #705DA8;
     --purple: #884898;
     --magenta: #c949a2;
@@ -57,7 +57,7 @@
     --light-blue: #03A9F4;
     --sky-blue: #95c0ec; //sora-iro
     --cyan: #00BCD4;
-    --lighter-cyan:#8cb4ce; // kanomezoki
+    --lighter-cyan: #8cb4ce; // kanomezoki
 
     // Green
     --celadon: #60b49f;
@@ -78,5 +78,19 @@
     --orange: #fd7e00; // hada-iro
     --deep-orange: #FF5722;
 
+}
+
+:root {
+    --btn-font-color: var(--lamp-black);
+    --btn-bg-color: var(--snow-white);
+    --btn-border-color: rgba(22, 28, 30, .1);
+
+    --btn-hvr-bg-color: var(--sky-blue):
+
+    --btn-bdr-active-color: rbga(var(--light-blue), 0.6);
+
+    // Table
+    --tbl-default-color: #d8d8dc;
+    --tbl-border-color: var(--snow-white);
 
 }

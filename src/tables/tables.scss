@@ -3,9 +3,22 @@
  */
 
 table {
-    width: 100%;
+    max-width: 100%;
     display: table;
     border-collapse: collapse;
     border-spacing: 0;
+    border: 1px solid var(--tbl-border-color);
 }
 
+th {
+    font-weight: 700;
+}
+
+td,
+th {
+    padding: var(--em-spacer4) 1em;
+}
+
+thead {
+    background-color: rgba(216, 216, 220, 0.5);
+}

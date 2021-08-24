@@ -1,6 +1,3 @@
-@import "./../_color/color.scss";
-@import "./../variables.scss";
-
 *,
 *::before,
 *::after {
@@ -36,4 +33,17 @@ code {
     background-color: var(--snow-white);
     color: var(--red);
     padding: var(--em-spacer3) var(--em-spacer4);
+}
+
+pre {
+    background-color: var(--snow-white);
+    overflow-x: auto;
+    padding: var(--em-spacer4);
+}
+
+pre code {
+    color: var(--black);
+    font-size: 0.9em;
+    padding: 0;
+    background-color: var(--transparent);
 }

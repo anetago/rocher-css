@@ -1,7 +1,6 @@
 @use "sass:math";
 
 @import "./../variables.scss";
-@import "./../_color/color.scss";
 
 h1,
 h2,
@@ -35,6 +34,31 @@ h5 {
 
 h6 {
     font-size: $font-size-h6;
+}
+
+// Type styling
+.i {
+    font-style: italic;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.ttc {
+    text-transform: capitalize;
+}
+
+.ttu {
+    text-transform: uppercase;
 }
 
 /* Text Alighment */
