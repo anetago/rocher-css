@@ -3,8 +3,10 @@
  */
 
 table {
+    position: relative;
     max-width: 100%;
     display: table;
+    overflow-x: auto;
     border-collapse: collapse;
     border-spacing: 0;
     border: 1px solid var(--tbl-border-color);
@@ -21,4 +23,12 @@ th {
 
 thead {
     background-color: rgba(216, 216, 220, 0.5);
+}
+
+tbody {
+    &.shade-line {
+        tr:nth-child(2n) {
+            background: var(--snow-white);
+        }
+    }
 }

@@ -72,12 +72,30 @@
               <th>Capital</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody class="shade-line">
             <tr>
               <td>1</td>
               <td>Japan</td>
               <td>JP</td>
               <td>Tokyo</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>United State</td>
+              <td>US</td>
+              <td>Washington D.C.</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>French</td>
+              <td>FR</td>
+              <td>Paris</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>United Kingdom</td>
+              <td>UK</td>
+              <td>London</td>
             </tr>
           </tbody>
         </table>
@@ -276,6 +294,38 @@
       <h1>Button</h1>
       <div class="showcase">
         <button class="btn">Button</button>
+      </div>
+    </div>
+
+    <!-- Form -->
+    <div class="rocher">
+      <h1>Form</h1>
+      <div class="showcase">
+        <form>
+          <div>
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div>
+            <label for="gender">
+              <input type="radio" name="gender" value="female">Female</label> 
+            </label>
+            <label for="gender">
+              <input type="radio" name="gender" value="male">Male</label> 
+            </label>
+            <label for="gender">
+              <input type="radio" name="gender" value="da">Won't answered</label> 
+            </label>
+          </div>
+          <div>
+            <label for="">Are you consent the term of policy?</label>
+            <select>
+              <option selected="selected">--</option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+        </form>
       </div>
     </div>
 
