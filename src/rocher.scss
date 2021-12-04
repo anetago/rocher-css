@@ -1,12 +1,12 @@
 // Variables and colors
 @import "./_color/color.scss";
-@import "./_skelton/spacing.scss";
+@import "./_skeleton/spacing.scss";
 
 // Global element
-@import "./_skelton/skelton.scss";
+@import "./_skeleton/skeleton.scss";
 
 .rocher {
-    @import "./_skelton/typography.scss";
+    @import "./_skeleton/typography.scss";
     
     @import "./flex/flex.scss";
     @import "./media/media.scss";
