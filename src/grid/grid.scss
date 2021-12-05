@@ -1,5 +1,6 @@
 @use "sass:math";
 @import "./../variables.scss";
+@import "./../_mixin.scss";
 
 .row {
     display: flex;
@@ -27,11 +28,14 @@
         }
     }
 
-    @media screen and (min-width: 1199px) {
-        @for $i from 1 through $denominator {
-            .col-xl-#{$i} {
-                flex: relative;
-                max-width: math.div(100%, $denominator)*$i;
+    @each $modifier,
+    $screen in $breakpoint {
+        @media #{$screen} {
+            @for $i from 1 through $denominator {
+                .col-#{$modifier}-#{$i} {
+                    flex: relative;
+                    width: math.div(100%, $denominator)*$i;
+                }
             }
         }
     }
